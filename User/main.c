@@ -15,7 +15,6 @@
 	
 	
 	
-	
 #include "stm32f10x.h"
 #include "bsp_Timbase.h"
 #include "bsp_oled.h"
@@ -1245,3 +1244,6 @@ int main(void)
 }	
 
 //我是feature分支，嘿嘿嘿
+//我是merge过feature_new_add_function的main分支，有冲突但是解决了
+
+
