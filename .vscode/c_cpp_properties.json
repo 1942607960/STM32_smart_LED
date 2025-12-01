@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "STM32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Users/86178/Desktop/个人文件夹/单片机方向高年级组GPIO队/我的语音台灯/代码/代码/Libraries/CMSIS",
+                "C:/Users/86178/Desktop/个人文件夹/单片机方向高年级组GPIO队/我的语音台灯/代码/代码/Libraries/STM32F10x_StdPeriph_Driver/inc"
+            ],
+            "defines": [
+                
+                "__CC_ARM",
+                "USE_STDPERIPH_DRIVER",
+                "STM32F10X_MD"
+            ],
+            
+            "compilerPath": "C:/Keil_v5/UV4/UV4.exe",
+            "cStandard": "c99",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}

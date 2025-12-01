@@ -849,7 +849,7 @@ int main(void)
 									}							
 							}
 							
-							if(!KEY1)//减小数字  	  
+							if(!KEY1)    //减小数字  	  
 							{													
 								delay_ms(10);
 									if(KEY1 ==0 )
@@ -881,7 +881,7 @@ int main(void)
 							}
 								
 							 
-							if(!KEY2)//确认设置时间  	  
+							if(!KEY2)  //确认设置时间  	  
 							{
 							  delay_ms(10);
 								if(KEY2 == 0)
@@ -955,7 +955,7 @@ int main(void)
 										default : time_buf[1]=0x01;
 									}
 			
-									switch(m)//设置月
+									switch(m)     //设置月
 									{
 
 										case 1 : time_buf[2]=0x01;break;
@@ -973,7 +973,7 @@ int main(void)
 										
 										default : time_buf[2]=0x01;
 									}
-									switch(d)//设置日
+									switch(d)   //设置日
 									{
 
 										case 1  : time_buf[3]=0x01;break;
