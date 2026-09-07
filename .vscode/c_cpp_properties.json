@@ -3,11 +3,11 @@
         {
             "name": "STM32",
             "includePath": [
-                "${workspaceFolder}/Libraries/CMSIS",
-                "${workspaceFolder}/Libraries/STM32F10x_StdPeriph_Driver/inc",
-                "${workspaceFolder}/User",
-                "${workspaceFolder}/Gizwits",
-                "${workspaceFolder}/Utils",
+                "${workspaceFolder}/Libraries/CMSIS/**",
+                "${workspaceFolder}/Libraries/STM32F10x_StdPeriph_Driver/inc/**",
+                "${workspaceFolder}/User/**",
+                "${workspaceFolder}/Gizwits/**",
+                "${workspaceFolder}/Utils/**",
                 "${workspaceFolder}"
             ],
             "defines": [
